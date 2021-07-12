@@ -1,0 +1,162 @@
+body {
+  text-align: center;
+  background-color: #2C2E43;
+    color: #FFD523;
+    margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+  padding-top: 30px;
+  position: relative;
+  margin-top: 0;
+  font-size: 60px;
+}
+
+.clip {
+  padding-top: 0;
+  border: 1px solid #FFD523
+}
+
+address {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+table {
+  padding: 2px;
+  margin: auto;
+  color: white;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #FFD523;
+}
+
+
+address {
+  padding: 50px;
+}
+
+
+/* CSS Codes */
+.bruceg {
+  margin: auto;
+  float: right;
+  position: absolute;
+  right: 200px;
+}
+
+.bruceg2 {
+  width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  left: 100px;
+  top: 815px;
+}
+
+.brucee {
+  width: 580px;
+  height: 580px;
+  margin: 0 auto;
+  position: absolute;
+  left: 100px;
+  top: 210px;
+}
+
+.by {
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titles {
+  margin: 0;
+  font-family: 'Carter One', cursive;
+}
+
+.intro {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: auto;
+  width: 25%;
+  color: white;
+}
+
+.quote {
+    font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  margin: auto;
+  font-style: italic;
+  width: 25%;
+  text-align: justify;
+  color: white;
+}
+
+.lyrics {
+  font-family: 'Programme-Regular', sans-serif;
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  line-height: 32px;
+}
+
+@font-face {font-family: "Programme-Regular";
+  src: url("Programme-Regular.ttf");
+}
+
+.music {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 45px;
+  left: 660px;
+  transition: transform .7s ease-in-out;
+
+}
+
+.music:hover {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 45px;
+  left: 660px;
+  transform: rotate(360deg);
+}
+
+
+.top-container {
+  position: relative;
+  background-color: #47597E;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.middle-container {
+  background-image: url("images/back22.png");
+  background-size:     contain;
+  background-blend-mode: lighten;
+  background-repeat: repeat-y;
+  padding-top: 20px;
+  padding-bottom: 104px;
+}
+
+.videowatch {
+
+  padding: 30px 0;
+  background-image: url("Images/finalback.jpg");
+  background-repeat:   repeat;
+  background-size:     contain;
+  background-blend-mode: lighten;
+  background-color: #402218;
+}
